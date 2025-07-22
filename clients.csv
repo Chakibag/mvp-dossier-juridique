@@ -1,0 +1,51 @@
+client_id,raison_sociale,forme_juridique,secteur_activite,siret,tva_intracom,adresse,ville,pays,date_ouverture_relation,statut
+55307f89-e239-4d0c-a509-ef46ddd2d151,Henry,SARL,Tech,63468446208273,FR57660033943,"840, rue de Hoareau",Sainte Véroniqueboeuf,France,2025-06-18,Archivé
+8b133102-74bc-4e8c-a0b8-f10b59830f4d,Fischer Muller SA,Association,Énergie,42073360903577,FR51975008906,rue Gillet,De Sousa,France,2023-08-28,Prospect
+d32b5392-8812-4c63-b32f-e566402deb53,Lemaître Monnier S.A.,SAS,Immobilier,47575252285860,FR98835160792,rue de Joubert,Goncalves,France,2024-06-26,Archivé
+74663b01-70ae-4d7c-ba9d-1e1dc1e591c9,Dupuy,EURL,Immobilier,40908976742969,FR55890068783,rue Gomes,RoyerBourg,France,2022-05-07,Archivé
+f06ddb4c-f082-4378-b587-cc1a72caab66,Lecomte,SA,Tech,80259890115605,FR99827297893,"34, boulevard Tanguy",Letellier,France,2025-07-11,Prospect
+d1419330-5137-4a0c-87ff-52b230421701,Guillon,SARL,Énergie,60944322509975,FR31464260592,"11, rue Techer",Bazin,France,2024-02-22,Prospect
+6733da72-a41f-491a-8893-af3162117364,Collin S.A.R.L.,EURL,Tech,84468153236994,FR14047709743,"9, chemin Frédéric Cousin",Barbierdan,France,2020-07-31,Archivé
+754265ae-2c64-4a62-b166-609bed8d62d7,Charrier,SAS,Finance,35146011153518,FR51340349550,"393, rue Élodie Merle",Martinboeuf,France,2024-09-16,Prospect
+08b6cce0-1c6c-4944-b9ac-e5848e76a45c,Marie SARL,SA,Industrie,43699634167551,FR40313557786,"2, avenue de Muller",Gosselin-les-Bains,France,2021-08-23,Prospect
+4b2df728-f816-488c-8a39-264e1e390fb7,Dias,SAS,Finance,47302500180651,FR68439875878,"734, chemin de Navarro",SauvageBourg,France,2022-08-30,Actif
+44becd82-76d1-41c6-ae00-ce8c940b73a6,Andre Maillot SA,Association,Santé,87956183189090,FR88297746579,"2, rue de Rolland",Saint VincentBourg,France,2024-12-04,Prospect
+48281461-cf28-4f45-8211-6bba0d2f56a4,Lopes Laroche S.A.R.L.,Association,Immobilier,85888697293114,FR89762022746,"77, rue Pereira",Monniernec,France,2024-01-19,Prospect
+63fd3820-a08a-467e-94d7-f84a7db4f6b3,Chauveau,SA,Immobilier,23849749883201,FR61799937007,"41, rue Regnier",Jolynec,France,2022-02-11,Actif
+7b2df620-592d-4186-8310-72bc86f32949,Pinto,Association,Industrie,20612534616700,FR25248531107,boulevard de Garcia,Saint Jacquesnec,France,2024-09-06,Prospect
+958fa7e4-bfad-4af7-8f13-f0b11cd95b44,Benoit,SA,Immobilier,66443878881905,FR18170929908,"70, avenue Sébastien Briand",Peltierdan,France,2021-11-13,Actif
+d2ca6ff9-f0ab-4795-bf4e-25742169db1d,Collet Carpentier SA,SARL,Industrie,18579378400784,FR56162203547,boulevard Martel,Laporte-les-Bains,France,2021-01-13,Archivé
+d32b3240-ef39-49c2-bc97-729e89eeb4ec,Lemoine SA,EURL,Transport,19563152857217,FR62549800598,rue de Delorme,Fournier-sur-Legendre,France,2021-04-01,Archivé
+b5431219-068f-4a9d-88ec-34385699f525,Descamps,SAS,Immobilier,89549596142604,FR55195007637,"45, avenue Gilles Leconte",Albert,France,2023-03-30,Prospect
+e59054ce-cc92-4339-b67a-f390729b9a03,Petit S.A.R.L.,SAS,Industrie,20308350926613,FR38078925963,"62, rue Lemaître",Barbier,France,2024-04-12,Prospect
+ebb55f6e-3b53-4105-9c74-ba6a030b963e,Raymond,SAS,Immobilier,11101783410767,FR51036704342,"3, rue Franck Bernier",Meyer-la-Forêt,France,2022-12-13,Actif
+f4a091a0-19e7-4880-b4a8-9cec955b0edc,Wagner Le Goff S.A.,Association,Agroalimentaire,99260963123154,FR48022971018,"14, avenue Baron",Saint Xavier,France,2021-08-31,Archivé
+6fa21168-170b-4a07-922e-49a39fbc8e5c,Renard,Association,Santé,72185720074015,FR84851345353,rue Blot,Morvan,France,2020-11-09,Actif
+6ba6a87a-7016-4aed-9333-3a1020b31526,Guillon,Association,Énergie,30841554397410,FR29025789079,chemin Stéphanie Fournier,Lacroix,France,2022-09-04,Archivé
+ff356c17-a218-4a4c-bf8f-fe4745348bd7,Monnier S.A.S.,Association,Immobilier,43320055123637,FR35188289684,"30, chemin de Bouchet",Da Costa,France,2021-11-27,Archivé
+d530befe-91cb-4f39-8b21-db1a6836b2aa,Weber SA,SAS,Énergie,76244968236151,FR36725149313,"44, rue Delmas",Alexandre,France,2023-05-06,Prospect
+0eecdb50-d020-48d6-8787-07a4ab00d36e,Muller,SA,Finance,59419092540504,FR81474619829,"250, rue Inès Aubry",Saint Jeannine,France,2024-04-01,Actif
+6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Chauveau,EURL,Énergie,54147051551587,FR93478676081,"7, rue de Adam",Sainte Adrien,France,2024-12-22,Archivé
+2fd0f80e-75f3-4176-a354-e29a4eb35d60,Marchal Perret SA,Association,Tech,56471205856133,FR55626105063,"5, chemin de Martineau",Milletnec,France,2023-01-25,Prospect
+eaef953d-95dd-493c-9dfe-e2d4de3e17e6,Olivier De Oliveira et Fils,SARL,Transport,63360417549415,FR35352356774,"946, chemin Renault",Perret,France,2025-06-26,Actif
+02e5970b-e4a0-4542-adcc-4b61ae088388,Turpin,Association,Immobilier,72227383640932,FR38671600670,"22, boulevard Margaud Couturier",Daniel-sur-Morin,France,2022-07-20,Prospect
+accc7eca-b18a-4251-a62a-6dd03781a918,Jean,EURL,Transport,38028125767670,FR10632880459,avenue Bourdon,Sainte Arnaude-sur-Mer,France,2023-10-26,Prospect
+96555464-f6b0-4dfe-9177-0c8e0adf7c59,Alexandre,SA,Finance,30767214781364,FR41890760083,"970, rue Pineau",Barthelemy,France,2025-01-26,Archivé
+699fbc83-5859-4776-8090-0a289e65c155,Faivre,SA,Santé,72289444371793,FR68002580547,"82, chemin Odette Hoarau",Gosselin,France,2024-12-26,Actif
+cf878ca4-6420-4fb4-b26f-0c75aa2a1cdc,Toussaint,SAS,Énergie,48647143282585,FR20479173015,"53, chemin Élodie Faure",Fernandes,France,2022-07-09,Archivé
+2e3dbfa5-7add-4337-935c-d0a0e242f2a6,Lemonnier,EURL,Industrie,19037530111404,FR67616418900,"176, avenue Perrier",Grenier-sur-Lefebvre,France,2025-06-13,Archivé
+0fa71635-95b2-4a1e-a08b-47979a5445e0,Martel,EURL,Finance,52023470816636,FR64775758589,"489, rue Richard Nguyen",Leroynec,France,2023-05-31,Archivé
+55c72803-fdce-4d5b-a86b-606399559a5e,Ramos,SA,Transport,85173190187897,FR89001715430,"2, avenue de Dufour",VidalVille,France,2022-10-07,Prospect
+5ee4c747-9c38-4943-81a6-423039501f18,Millet,SAS,Agroalimentaire,73991626817116,FR54353465017,"56, avenue Moreau",Rouxboeuf,France,2022-06-17,Prospect
+141af644-dbe8-43d2-8e31-ed9f5da6fdf7,Valette et Fils,SARL,Immobilier,38055788451169,FR13604460472,"33, rue Geneviève Carpentier",Bonnin-la-Forêt,France,2023-09-10,Prospect
+cec9cc25-8566-4791-8fa2-39235ea11679,Seguin Seguin et Fils,SAS,Finance,26122097582716,FR24220803878,"5, avenue de Chauvin",Sanchez,France,2022-08-14,Archivé
+60b5e4e8-0448-4f10-a25d-95691df9d10d,Grenier SARL,SARL,Finance,89650099116339,FR17656360518,"265, chemin de Richard",CamusBourg,France,2024-03-28,Actif
+8e7423fa-2bf7-49d1-a53a-441534019afe,Bousquet,EURL,Agroalimentaire,71289840405902,FR47153431705,"777, boulevard de Royer",Moulin,France,2021-04-16,Archivé
+6f874b9f-f637-4bcf-8854-ca566d074cae,Lebreton,Association,Tech,90197625258581,FR54577419627,chemin Jules Coulon,Monnier,France,2022-10-01,Archivé
+78c608e8-6210-4d67-ae22-88572dc48135,Guyot,SARL,Industrie,93901672105574,FR84201008529,rue de Clément,Fouquet,France,2024-01-04,Archivé
+baa36eb4-bdc9-4672-9ce2-2401daf1af1d,Berthelot,Association,Immobilier,43821828781097,FR77390653983,"17, chemin Louis",Jacquot-sur-Mer,France,2023-02-27,Actif
+4360cb2d-9412-4cd5-a476-ad9e7a5f8305,Reynaud,SA,Santé,84721923196742,FR67311001602,"855, chemin Philippe Grondin",Saint ThomasBourg,France,2025-02-09,Actif
+85a121c8-7e21-4005-b9a9-ad000a0ff840,Olivier Fabre et Fils,SARL,Industrie,48914483318850,FR90421480195,"441, rue Agnès Colin",Garcia,France,2025-02-04,Archivé
+122ac646-7385-435c-93e1-63188373d129,Paris Lambert SA,SAS,Immobilier,51113803615972,FR96441712194,"1, chemin de Lelièvre",Besnardboeuf,France,2022-02-13,Archivé
+cac4fcdb-cb91-4cd6-b2ea-071ad065b065,Fleury S.A.R.L.,Association,Énergie,66393201244387,FR20701970001,"3, boulevard Bailly",Saint Georgesnec,France,2022-06-22,Prospect
+0edac7a1-815d-4b39-a043-2166dcbe7c97,Lebreton,Association,Santé,72310992559677,FR50496515783,"209, rue Aubry",Saint Olivier-les-Bains,France,2025-03-31,Archivé

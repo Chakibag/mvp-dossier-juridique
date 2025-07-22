@@ -1,0 +1,151 @@
+dossier_id,reference_interne,titre,id_client,domaine,tribunal_competent,date_ouverture,date_cloture,etat,enjeu_financier
+545b783a-2080-4167-ad84-2651e2342fb5,2024-CON-0000,Turpin c/ Muller S.A.R.L.,02e5970b-e4a0-4542-adcc-4b61ae088388,Contrats,,2024-07-14,2024-08-07,Clos,412062.83
+96046024-504f-4b61-b7cd-04ee0afddfd5,2021-M&A-0001,Benoit c/ Lejeune,958fa7e4-bfad-4af7-8f13-f0b11cd95b44,M&A,,2021-09-09,,Ouvert,333416.26
+e2f60e46-aea3-4c9f-ba95-63c857e667cd,2022-CON-0002,Muller c/ Besson,0eecdb50-d020-48d6-8787-07a4ab00d36e,Contrats,,2022-04-27,2022-11-23,Clos,433532.94
+bdbf9d61-f0d3-4b6f-8120-fe05a48d84c3,2025-CON-0003,Lebreton c/ Hoareau,0edac7a1-815d-4b39-a043-2166dcbe7c97,Contrats,,2025-05-06,2025-06-12,Clos,324326.05
+32da7216-fddc-4c53-bb9f-79e5d7c19e0d,2023-FIS-0004,Muller c/ Guibert Lévêque SA,0eecdb50-d020-48d6-8787-07a4ab00d36e,Fiscal,,2023-02-25,2023-06-29,Clos,470226.2
+35e0b91a-7738-44b0-9dc6-314af0111e05,2022-CON-0005,Charrier c/ Evrard,754265ae-2c64-4a62-b166-609bed8d62d7,Contrats,,2022-04-25,,En appel,294488.97
+38e3550b-3272-4de0-ab86-e4d02923f1ad,2022-CON-0006,Lemoine SA c/ Bernard Boulay SA,d32b3240-ef39-49c2-bc97-729e89eeb4ec,Contentieux,TJ Lille,2022-02-04,,Ouvert,179386.68
+b5c03709-2a38-4f91-a166-e6648c8a42cd,2022-PRO-0007,Wagner Le Goff S.A. c/ Maillet,f4a091a0-19e7-4880-b4a8-9cec955b0edc,Propriété intellectuelle,,2022-10-28,,Ouvert,198745.76
+b2bd2fa7-4177-4eef-801d-e4636cbfd6cb,2024-M&A-0008,Ramos c/ Rossi,55c72803-fdce-4d5b-a86b-606399559a5e,M&A,,2024-08-12,2025-03-11,Clos,31749.4
+72087a01-8cdc-4d3f-ace4-6b290abed523,2023-CON-0009,Marchal Perret SA c/ Hoarau Jacques SARL,2fd0f80e-75f3-4176-a354-e29a4eb35d60,Contentieux,TJ Marseille,2023-03-03,,En appel,221335.73
+ec184383-99d6-4bf4-9ad4-fd7dd113b9d2,2022-CON-0010,Lebreton c/ Pages Salmon SA,6f874b9f-f637-4bcf-8854-ca566d074cae,Contrats,,2022-03-19,2023-05-21,Clos,335059.86
+5d10b768-3b3d-47f2-8d04-d2094e3781b7,2021-FIS-0011,Charrier c/ Bonneau,754265ae-2c64-4a62-b166-609bed8d62d7,Fiscal,,2021-09-10,2025-02-18,Clos,258490.03
+9b234da1-15af-44d8-bd79-fbaf80a78dfb,2024-PRO-0012,Lebreton c/ Leclerc Mercier SA,6f874b9f-f637-4bcf-8854-ca566d074cae,Propriété intellectuelle,,2024-10-24,2024-10-30,Clos,207176.19
+573285a1-761a-4c72-9cbf-fbd79cc6da88,2024-DRO-0013,Petit S.A.R.L. c/ Cohen S.A.S.,e59054ce-cc92-4339-b67a-f390729b9a03,Droit social,,2024-01-30,,En appel,104001.65
+50c42b4c-6d85-4a6e-9d89-69c434cdb044,2024-PRO-0014,Lebreton c/ Moulin et Fils,6f874b9f-f637-4bcf-8854-ca566d074cae,Propriété intellectuelle,,2024-05-30,,En appel,311602.31
+f7bf44a5-d389-47da-97b5-2092817aed72,2021-PRO-0015,Raymond c/ Navarro,ebb55f6e-3b53-4105-9c74-ba6a030b963e,Propriété intellectuelle,,2021-09-28,,Ouvert,158898.73
+aabd37b3-d214-4f66-bf6d-a323435a95e0,2022-PRO-0016,Pinto c/ Faivre Diallo SA,7b2df620-592d-4186-8310-72bc86f32949,Propriété intellectuelle,,2022-07-21,2024-11-05,Clos,237844.21
+843a9872-f627-46be-93a6-67a7a4742534,2022-FIS-0017,Olivier De Oliveira et Fils c/ Rey,eaef953d-95dd-493c-9dfe-e2d4de3e17e6,Fiscal,,2022-02-24,,En appel,260475.26
+3ebb9085-e5b4-45fe-9371-6ea9ec7f365c,2025-M&A-0018,Paris Lambert SA c/ Verdier,122ac646-7385-435c-93e1-63188373d129,M&A,,2025-01-09,,Ouvert,149055.34
+89d0bf59-65aa-455e-93a9-d2c27c05e91d,2024-FIS-0019,Lebreton c/ Gomez,6f874b9f-f637-4bcf-8854-ca566d074cae,Fiscal,,2024-02-05,2025-07-11,Clos,55759.73
+c2b04ca8-21a2-4b09-846e-846f4ea91d9a,2022-M&A-0020,Fleury S.A.R.L. c/ Pasquier Ribeiro SARL,cac4fcdb-cb91-4cd6-b2ea-071ad065b065,M&A,,2022-11-02,2023-06-12,Clos,120073.93
+84735a55-224d-4cbf-b7e6-047615e4ccae,2021-M&A-0021,Chauveau c/ Toussaint Potier S.A.R.L.,63fd3820-a08a-467e-94d7-f84a7db4f6b3,M&A,,2021-10-24,,Ouvert,32644.72
+97ec3088-a469-4b66-91c0-3c1913d7a523,2023-DRO-0022,Jean c/ Rousseau,accc7eca-b18a-4251-a62a-6dd03781a918,Droit social,,2023-12-02,,Ouvert,233153.92
+7045eea4-e3d4-4c2a-85cd-15203afcc15d,2023-DRO-0023,Grenier SARL c/ Hardy,60b5e4e8-0448-4f10-a25d-95691df9d10d,Droit social,,2023-01-08,,En appel,361989.5
+f0719de2-682b-43fa-921e-2a98a54da4f6,2022-PRO-0024,Weber SA c/ Lejeune,d530befe-91cb-4f39-8b21-db1a6836b2aa,Propriété intellectuelle,,2022-11-29,,Transaction en cours,129552.38
+328f9a65-b3c0-4835-97a1-c04618ea6bfa,2022-FIS-0025,Bousquet c/ Mallet,8e7423fa-2bf7-49d1-a53a-441534019afe,Fiscal,,2022-03-10,,Ouvert,447403.31
+ef2ffd82-d457-4b10-bfff-8555102f052e,2022-CON-0026,Lebreton c/ Guillot,0edac7a1-815d-4b39-a043-2166dcbe7c97,Contentieux,TJ Lyon,2022-05-03,,Transaction en cours,96184.47
+6949b152-88ab-4e80-a025-1562745e70ee,2025-DRO-0027,Berthelot c/ Ribeiro Neveu S.A.,baa36eb4-bdc9-4672-9ce2-2401daf1af1d,Droit social,,2025-03-02,,Transaction en cours,34607.01
+a4755241-8721-481d-b236-540d67589044,2024-CON-0028,Collet Carpentier SA c/ Boyer,d2ca6ff9-f0ab-4795-bf4e-25742169db1d,Contentieux,TJ Lyon,2024-12-24,,Transaction en cours,402694.13
+852e0a6d-857f-468b-bcec-6f38a233264a,2023-DRO-0029,Lebreton c/ Pascal,6f874b9f-f637-4bcf-8854-ca566d074cae,Droit social,,2023-12-12,2024-10-27,Clos,475519.41
+d3be7f8e-fabe-4a9e-8b72-8663263a0655,2023-DRO-0030,Olivier De Oliveira et Fils c/ Chevallier Berger SARL,eaef953d-95dd-493c-9dfe-e2d4de3e17e6,Droit social,,2023-10-23,,Transaction en cours,416978.89
+e803fded-e227-45c0-86a9-41496eeceae3,2022-PRO-0031,Martel c/ Jourdan,0fa71635-95b2-4a1e-a08b-47979a5445e0,Propriété intellectuelle,,2022-06-02,,En appel,374391.17
+c43cfe86-737c-4c21-9a89-b9ea98543080,2021-PRO-0032,Jean c/ Morin,accc7eca-b18a-4251-a62a-6dd03781a918,Propriété intellectuelle,,2021-11-21,2023-10-20,Clos,378370.63
+9bec7d9b-ca21-4ce2-8f26-deaaccd0d787,2023-CON-0033,Grenier SARL c/ Roux Royer S.A.R.L.,60b5e4e8-0448-4f10-a25d-95691df9d10d,Contrats,,2023-11-01,,Transaction en cours,317106.73
+386ce6ce-08a5-4bdc-b65a-c72d823e1870,2024-PRO-0034,Descamps c/ Legrand S.A.,b5431219-068f-4a9d-88ec-34385699f525,Propriété intellectuelle,,2024-06-02,,Ouvert,359636.98
+93ad3a40-c852-43b8-af5e-7f8d608aba02,2024-CON-0035,Collet Carpentier SA c/ Guillaume,d2ca6ff9-f0ab-4795-bf4e-25742169db1d,Contrats,,2024-12-22,2025-03-16,Clos,166657.69
+33c2409d-4c78-4c01-829d-ec90310d94b2,2025-CON-0036,Lemonnier c/ Bailly,2e3dbfa5-7add-4337-935c-d0a0e242f2a6,Contentieux,TJ Lyon,2025-04-02,,En appel,123318.13
+e20911e6-4c21-4262-952d-3657f232b68c,2025-M&A-0037,Berthelot c/ Lecomte S.A.,baa36eb4-bdc9-4672-9ce2-2401daf1af1d,M&A,,2025-06-03,,En appel,41472.14
+7025280f-b901-4743-942f-5188308aa0f6,2024-CON-0038,Chauveau c/ Letellier S.A.R.L.,6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Contrats,,2024-09-15,,Transaction en cours,213729.37
+6a0c1ae8-a761-407b-868f-a78dc2f8f267,2025-PRO-0039,Pinto c/ Grenier Texier et Fils,7b2df620-592d-4186-8310-72bc86f32949,Propriété intellectuelle,,2025-06-11,,Transaction en cours,453370.85
+5232e692-68f1-437c-bb6e-f8e1b4fb09a1,2022-FIS-0040,Millet c/ Dupuis,5ee4c747-9c38-4943-81a6-423039501f18,Fiscal,,2022-06-04,,Ouvert,429798.7
+6acbe356-09d4-4e5d-9784-e227ffdf336a,2023-DRO-0041,Fleury S.A.R.L. c/ Diallo,cac4fcdb-cb91-4cd6-b2ea-071ad065b065,Droit social,,2023-11-26,,Transaction en cours,243720.07
+87d0ddf5-77c4-4f8c-84c0-1fc9ea226e41,2022-CON-0042,Guillon c/ Turpin,6ba6a87a-7016-4aed-9333-3a1020b31526,Contrats,,2022-10-04,,Transaction en cours,428189.5
+eeadf14d-bf3d-4680-898b-d80c52012aeb,2023-DRO-0043,Chauveau c/ Le Gall,6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Droit social,,2023-10-28,,En appel,249232.44
+b3a3932e-0a68-41ff-898f-05d25f59b9a8,2022-PRO-0044,Descamps c/ Blanchet,b5431219-068f-4a9d-88ec-34385699f525,Propriété intellectuelle,,2022-09-01,,Transaction en cours,24222.16
+0a5f032e-0484-49a5-81be-b3859161ef05,2025-FIS-0045,Renard c/ Turpin,6fa21168-170b-4a07-922e-49a39fbc8e5c,Fiscal,,2025-04-23,,Transaction en cours,364848.88
+d50de8ff-16e9-4d43-9f15-b0b4160b3b75,2021-M&A-0046,Turpin c/ Samson,02e5970b-e4a0-4542-adcc-4b61ae088388,M&A,,2021-12-22,,Ouvert,454395.14
+676d8d9b-7605-46f5-bbff-22f0b7c81b28,2025-DRO-0047,Millet c/ Martins,5ee4c747-9c38-4943-81a6-423039501f18,Droit social,,2025-02-15,,Ouvert,51134.26
+8c64a9b1-2a6b-4d38-b2c4-27410cdcc6a5,2023-M&A-0048,Marchal Perret SA c/ Pasquier,2fd0f80e-75f3-4176-a354-e29a4eb35d60,M&A,,2023-02-17,,Transaction en cours,99047.22
+ceeba2d5-ebc1-4e46-b739-10829fa683d2,2021-PRO-0049,Lemoine SA c/ Traore Rodrigues SA,d32b3240-ef39-49c2-bc97-729e89eeb4ec,Propriété intellectuelle,,2021-10-01,2024-02-21,Clos,113713.54
+504deb90-f00c-48a8-8bfe-67703473c009,2022-CON-0050,Wagner Le Goff S.A. c/ Collet,f4a091a0-19e7-4880-b4a8-9cec955b0edc,Contrats,,2022-08-31,,Transaction en cours,146345.74
+f7f7d702-9eb1-4c55-aa8d-219d697febb5,2022-CON-0051,Chauveau c/ Boulanger Rolland S.A.R.L.,6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Contrats,,2022-03-15,,Ouvert,240450.35
+2f9ffe63-1122-4a41-b385-0fc011fd3e91,2023-DRO-0052,Paris Lambert SA c/ Didier Dias et Fils,122ac646-7385-435c-93e1-63188373d129,Droit social,,2023-12-24,,Ouvert,499954.84
+d51bdc64-5a8e-4e7a-83d7-b4f450018661,2024-M&A-0053,Guillon c/ Boucher,6ba6a87a-7016-4aed-9333-3a1020b31526,M&A,,2024-06-19,,Ouvert,392804.19
+80feccbf-8f35-4dec-8a53-2ce879f745e3,2024-CON-0054,Bousquet c/ Ramos,8e7423fa-2bf7-49d1-a53a-441534019afe,Contentieux,TJ Lyon,2024-10-19,,Ouvert,107686.73
+2e469faf-03f8-44f4-b0c9-b787d01e2e0e,2024-DRO-0055,Fischer Muller SA c/ Jacques,8b133102-74bc-4e8c-a0b8-f10b59830f4d,Droit social,,2024-04-13,,En appel,126887.02
+2d1cc68c-c65a-4064-8718-47f4f9607871,2022-FIS-0056,Jean c/ Roy,accc7eca-b18a-4251-a62a-6dd03781a918,Fiscal,,2022-04-09,,Ouvert,286345.1
+99f0fbb9-d8d9-4ef2-b8be-ddab91aa33d8,2022-PRO-0057,Pinto c/ Gonzalez,7b2df620-592d-4186-8310-72bc86f32949,Propriété intellectuelle,,2022-02-24,2025-03-18,Clos,385780.07
+00fa7c13-1986-4c7e-923a-0fa0825ff147,2025-DRO-0058,Andre Maillot SA c/ Hardy SA,44becd82-76d1-41c6-ae00-ce8c940b73a6,Droit social,,2025-06-15,,Ouvert,391118.02
+e8bf4353-788a-4115-852c-00140a9d4527,2025-CON-0059,Andre Maillot SA c/ Laroche SA,44becd82-76d1-41c6-ae00-ce8c940b73a6,Contrats,,2025-02-14,,Ouvert,293555.52
+2894aa01-a22f-4204-afd5-5ab69df9ca1a,2024-DRO-0060,Raymond c/ Pasquier S.A.,ebb55f6e-3b53-4105-9c74-ba6a030b963e,Droit social,,2024-10-21,,Transaction en cours,204360.68
+7b45d1aa-eabb-411d-a194-e0ecfbe6e782,2025-M&A-0061,Reynaud c/ Mercier Neveu S.A.,4360cb2d-9412-4cd5-a476-ad9e7a5f8305,M&A,,2025-02-19,,Ouvert,300127.95
+50e44b65-b025-44f1-a147-21356e86f3de,2021-M&A-0062,Grenier SARL c/ Bodin Pineau SARL,60b5e4e8-0448-4f10-a25d-95691df9d10d,M&A,,2021-08-05,,Ouvert,351624.57
+fa87aa0d-a900-46bf-8e1b-056cd4c896ce,2021-FIS-0063,Raymond c/ Delmas,ebb55f6e-3b53-4105-9c74-ba6a030b963e,Fiscal,,2021-10-23,,Ouvert,400151.34
+7a68a2db-206c-463a-874c-ce554fc5103b,2023-CON-0064,Ramos c/ Rossi S.A.S.,55c72803-fdce-4d5b-a86b-606399559a5e,Contentieux,TJ Lille,2023-08-18,2023-08-30,Clos,334145.46
+a0f81947-137b-47bd-8cac-2d771a70a3e0,2023-DRO-0065,Lecomte c/ Laporte et Fils,f06ddb4c-f082-4378-b587-cc1a72caab66,Droit social,,2023-04-21,2023-05-09,Clos,16199.55
+15ca8e8c-203a-4697-a48b-7fc01e16b255,2022-PRO-0066,Chauveau c/ Durand,6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Propriété intellectuelle,,2022-09-21,,Ouvert,222426.47
+7887fae6-96f7-4f43-9ff8-4544fd4c2336,2023-FIS-0067,Monnier S.A.S. c/ Colin,ff356c17-a218-4a4c-bf8f-fe4745348bd7,Fiscal,,2023-09-10,,Transaction en cours,356581.24
+dd66d9ff-2cb9-4001-b6ba-d50c6db32d2e,2022-M&A-0068,Marchal Perret SA c/ Guillot Olivier S.A.S.,2fd0f80e-75f3-4176-a354-e29a4eb35d60,M&A,,2022-01-04,2022-06-02,Clos,311797.05
+3cf05f82-1e8a-4f73-a5ce-baf9dd9191b0,2023-PRO-0069,Lemonnier c/ Monnier,2e3dbfa5-7add-4337-935c-d0a0e242f2a6,Propriété intellectuelle,,2023-10-17,,Transaction en cours,223431.5
+11cb12b7-6500-4cf7-8cdf-0d93efb55921,2022-DRO-0070,Olivier Fabre et Fils c/ Besson S.A.R.L.,85a121c8-7e21-4005-b9a9-ad000a0ff840,Droit social,,2022-09-10,2024-05-18,Clos,167929.25
+c07fb20c-e320-4e66-a10d-0e8a24c3b869,2023-CON-0071,Collet Carpentier SA c/ Grenier Jean SARL,d2ca6ff9-f0ab-4795-bf4e-25742169db1d,Contentieux,TJ Lille,2023-07-05,2024-09-15,Clos,129493.09
+509d0159-970b-4e76-a0d8-5e785e9b30bd,2024-DRO-0072,Turpin c/ Guibert et Fils,02e5970b-e4a0-4542-adcc-4b61ae088388,Droit social,,2024-06-18,,Transaction en cours,174834.34
+d9d812c0-f98a-4596-a7f1-19c1be01c80c,2024-CON-0073,Alexandre c/ Morin S.A.R.L.,96555464-f6b0-4dfe-9177-0c8e0adf7c59,Contrats,,2024-10-13,,En appel,248899.47
+4a35432a-d5f4-4f25-aed1-c11a4d72b6d6,2023-CON-0074,Guillon c/ Lefèvre,6ba6a87a-7016-4aed-9333-3a1020b31526,Contrats,,2023-03-03,2024-10-08,Clos,147032.66
+9f1536ed-7682-4baf-b712-a636e5d0bef7,2024-FIS-0075,Valette et Fils c/ Perez Didier S.A.R.L.,141af644-dbe8-43d2-8e31-ed9f5da6fdf7,Fiscal,,2024-04-06,2024-04-13,Clos,282337.6
+11400748-cd6e-4a60-a8dc-b8ccfaf13cb7,2024-M&A-0076,Toussaint c/ Moreno,cf878ca4-6420-4fb4-b26f-0c75aa2a1cdc,M&A,,2024-04-18,,Ouvert,128264.46
+ff0c6248-ed13-4f38-b725-27842abfb457,2025-PRO-0077,Chauveau c/ Evrard SA,6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Propriété intellectuelle,,2025-03-15,,En appel,348398.58
+92254682-bed5-4684-9a86-f26e05d1683e,2022-FIS-0078,Bousquet c/ Jacquot Duhamel S.A.R.L.,8e7423fa-2bf7-49d1-a53a-441534019afe,Fiscal,,2022-07-13,,Transaction en cours,229605.53
+2a9a1ecf-1338-43b8-80c7-f3c79edbe83d,2022-CON-0079,Fischer Muller SA c/ Pottier SARL,8b133102-74bc-4e8c-a0b8-f10b59830f4d,Contentieux,TJ Lyon,2022-09-16,2022-11-27,Clos,208156.55
+f24d314f-7164-4d41-ab19-5da9a7545fd8,2025-CON-0080,Collet Carpentier SA c/ Colin SARL,d2ca6ff9-f0ab-4795-bf4e-25742169db1d,Contrats,,2025-05-19,2025-07-10,Clos,241897.64
+9eb7c745-68f4-40bc-b8ad-2e733e75d5c6,2021-CON-0081,Toussaint c/ Coste Meunier et Fils,cf878ca4-6420-4fb4-b26f-0c75aa2a1cdc,Contrats,,2021-08-15,,Transaction en cours,498349.42
+2466c1bb-7f5c-4236-961f-ecec05719d7a,2025-CON-0082,Martel c/ Ribeiro S.A.,0fa71635-95b2-4a1e-a08b-47979a5445e0,Contrats,,2025-01-17,2025-04-04,Clos,354398.92
+63d65e67-1fa9-458c-80ac-b86c279683ed,2023-CON-0083,Descamps c/ Labbé,b5431219-068f-4a9d-88ec-34385699f525,Contrats,,2023-12-15,2024-06-18,Clos,122963.64
+de856a6f-54a3-4733-9048-d8edc3c8939a,2025-M&A-0084,Olivier Fabre et Fils c/ Jacob,85a121c8-7e21-4005-b9a9-ad000a0ff840,M&A,,2025-05-14,2025-07-05,Clos,68581.82
+8d0dbdd2-2104-4733-8d39-000e977627c3,2024-FIS-0085,Lemonnier c/ Lagarde Ramos SA,2e3dbfa5-7add-4337-935c-d0a0e242f2a6,Fiscal,,2024-10-07,,En appel,103855.08
+ecf7a43c-bf97-4d68-9d6f-191ac4ae741d,2023-PRO-0086,Paris Lambert SA c/ Vincent,122ac646-7385-435c-93e1-63188373d129,Propriété intellectuelle,,2023-09-07,2025-04-08,Clos,365046.65
+6647595d-50c1-4043-a220-0f5f2c6d7525,2021-DRO-0087,Fleury S.A.R.L. c/ Sanchez Leblanc S.A.S.,cac4fcdb-cb91-4cd6-b2ea-071ad065b065,Droit social,,2021-12-20,2023-10-29,Clos,490450.21
+367d9f2d-0a86-4c08-b036-372639a512f7,2024-CON-0088,Chauveau c/ Becker,63fd3820-a08a-467e-94d7-f84a7db4f6b3,Contrats,,2024-10-28,,En appel,186831.72
+564ff187-0755-430b-9b56-2d65fcad98ae,2022-CON-0089,Raymond c/ Couturier SARL,ebb55f6e-3b53-4105-9c74-ba6a030b963e,Contentieux,TJ Marseille,2022-12-11,,En appel,32302.69
+d3343d66-4502-44a3-878e-4f896dd3fd90,2024-DRO-0090,Dupuy c/ Dumas,74663b01-70ae-4d7c-ba9d-1e1dc1e591c9,Droit social,,2024-11-20,2025-05-13,Clos,351734.52
+9ac0a98a-83c1-44c7-a7c5-e133505b66ed,2023-FIS-0091,Marie SARL c/ Lesage,08b6cce0-1c6c-4944-b9ac-e5848e76a45c,Fiscal,,2023-01-25,,Transaction en cours,60267.95
+c102b141-a882-4db1-8f7b-061fa3909fe6,2022-DRO-0092,Henry c/ Clément,55307f89-e239-4d0c-a509-ef46ddd2d151,Droit social,,2022-05-06,2025-03-26,Clos,240004.5
+d2b7d700-e402-4d2b-a73e-77c67e524ee8,2024-CON-0093,Olivier De Oliveira et Fils c/ Hoarau,eaef953d-95dd-493c-9dfe-e2d4de3e17e6,Contrats,,2024-11-02,,En appel,483093.85
+df65f114-c111-4815-a52e-37c3cf451607,2024-PRO-0094,Lemoine SA c/ Perez SARL,d32b3240-ef39-49c2-bc97-729e89eeb4ec,Propriété intellectuelle,,2024-08-02,,Ouvert,412836.67
+6c4e095b-962a-4e27-907b-fa5a90a4dba3,2022-PRO-0095,Muller c/ Mendès,0eecdb50-d020-48d6-8787-07a4ab00d36e,Propriété intellectuelle,,2022-03-18,,Ouvert,292740.37
+3a2c9f07-e085-4ce2-9a4c-4f7c1781d67e,2024-CON-0096,Guyot c/ Rousset Perrier SARL,78c608e8-6210-4d67-ae22-88572dc48135,Contentieux,TJ Lyon,2024-11-20,,En appel,407459.62
+5ef07712-af0d-4cb3-b1e8-dea4a4580a29,2023-CON-0097,Raymond c/ Robin SA,ebb55f6e-3b53-4105-9c74-ba6a030b963e,Contentieux,TJ Paris,2023-02-02,,En appel,283455.79
+67e44cc0-3f78-4825-9c41-94aaa0d700ef,2022-DRO-0098,Chauveau c/ Alves,6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Droit social,,2022-11-12,,En appel,390089.83
+a2f8336d-9fa5-4feb-a147-9bea04d1b010,2024-PRO-0099,Weber SA c/ Henry,d530befe-91cb-4f39-8b21-db1a6836b2aa,Propriété intellectuelle,,2024-10-16,,Transaction en cours,155703.03
+383e47f4-9dc5-4c97-8959-a35de338f901,2022-PRO-0100,Millet c/ Perret Pons S.A.S.,5ee4c747-9c38-4943-81a6-423039501f18,Propriété intellectuelle,,2022-02-12,2022-06-27,Clos,288628.44
+a7ff57e5-b6d5-45e4-94c5-9665832397ae,2023-DRO-0101,Dupuy c/ Henry,74663b01-70ae-4d7c-ba9d-1e1dc1e591c9,Droit social,,2023-11-30,,Ouvert,474319.2
+f4ae22ce-607d-429e-af02-92cb70ad5efb,2021-FIS-0102,Pinto c/ Monnier S.A.S.,7b2df620-592d-4186-8310-72bc86f32949,Fiscal,,2021-08-31,,En appel,139676.6
+f50bd7ff-92c5-475c-beb3-43a17eeeb377,2021-M&A-0103,Guillon c/ Collin,d1419330-5137-4a0c-87ff-52b230421701,M&A,,2021-12-13,,En appel,95168.64
+9292307a-94a6-40fe-82a9-f9c8f9b2e743,2021-M&A-0104,Lecomte c/ Pasquier,f06ddb4c-f082-4378-b587-cc1a72caab66,M&A,,2021-08-10,,Ouvert,210173.61
+c4a1c050-32ab-4517-a48a-940bc6dc7edf,2023-DRO-0105,Berthelot c/ Pages S.A.S.,baa36eb4-bdc9-4672-9ce2-2401daf1af1d,Droit social,,2023-03-16,,Transaction en cours,152717.05
+1d2ae70c-42d2-4253-9f9c-dba0833b12ef,2025-CON-0106,Benoit c/ Pottier Gillet S.A.,958fa7e4-bfad-4af7-8f13-f0b11cd95b44,Contrats,,2025-05-28,2025-06-20,Clos,354463.9
+31d661c5-111b-4470-9c75-cfa71ba166df,2022-CON-0107,Turpin c/ Hernandez,02e5970b-e4a0-4542-adcc-4b61ae088388,Contentieux,TJ Marseille,2022-02-22,,En appel,396035.73
+c8986a69-d97e-4f85-a9a3-f1d85d927eb2,2022-DRO-0108,Grenier SARL c/ Rodrigues,60b5e4e8-0448-4f10-a25d-95691df9d10d,Droit social,,2022-09-11,,En appel,218318.09
+e5e5ae54-64f3-4a99-81d8-679c58d59672,2021-M&A-0109,Lemonnier c/ Gay Baron S.A.R.L.,2e3dbfa5-7add-4337-935c-d0a0e242f2a6,M&A,,2021-10-28,,En appel,455121.61
+10e7ec70-18c8-460f-9e8f-7d62a0687233,2022-CON-0110,Dias c/ Garnier,4b2df728-f816-488c-8a39-264e1e390fb7,Contentieux,TJ Lyon,2022-10-30,,Ouvert,398388.0
+478ddbef-c815-4bf6-b821-65f2bb0b6c0a,2023-FIS-0111,Valette et Fils c/ Mace Toussaint S.A.R.L.,141af644-dbe8-43d2-8e31-ed9f5da6fdf7,Fiscal,,2023-02-02,2024-02-28,Clos,225185.19
+912ca562-b49e-4fc1-af18-545ace7d1fcc,2024-FIS-0112,Turpin c/ Albert Gautier S.A.,02e5970b-e4a0-4542-adcc-4b61ae088388,Fiscal,,2024-01-30,2025-05-22,Clos,352869.51
+c96ec555-0999-48ab-bfbb-b7d191d53cab,2022-DRO-0113,Descamps c/ Delaunay SARL,b5431219-068f-4a9d-88ec-34385699f525,Droit social,,2022-11-07,,Transaction en cours,224501.84
+1a1f3ea6-0bf9-4d2a-befa-49d35c6d1d67,2025-CON-0114,Valette et Fils c/ Boulanger,141af644-dbe8-43d2-8e31-ed9f5da6fdf7,Contentieux,TJ Marseille,2025-02-18,,Transaction en cours,305819.68
+a59ce143-58b4-4d0f-aab8-c6fc169f1105,2023-CON-0115,Fischer Muller SA c/ Perret,8b133102-74bc-4e8c-a0b8-f10b59830f4d,Contentieux,TJ Paris,2023-06-05,,En appel,499790.48
+3ba4c7d7-5a41-486e-8bef-3fe7e7c59a05,2025-CON-0116,Guyot c/ Ribeiro Lebrun S.A.S.,78c608e8-6210-4d67-ae22-88572dc48135,Contrats,,2025-01-08,,Ouvert,383923.41
+5eb7e4b2-59f0-4004-94ce-6723c90bd53e,2024-PRO-0117,Lopes Laroche S.A.R.L. c/ Voisin Bouvier S.A.,48281461-cf28-4f45-8211-6bba0d2f56a4,Propriété intellectuelle,,2024-07-06,,Transaction en cours,458875.67
+07b23f67-bf45-4c3e-a977-64df7e55f252,2023-DRO-0118,Lopes Laroche S.A.R.L. c/ Klein,48281461-cf28-4f45-8211-6bba0d2f56a4,Droit social,,2023-04-01,,Transaction en cours,321044.51
+f8274b5f-57fb-4135-8047-e10f465da7a3,2024-CON-0119,Alexandre c/ Bruneau,96555464-f6b0-4dfe-9177-0c8e0adf7c59,Contentieux,TJ Marseille,2024-09-05,,Transaction en cours,210090.57
+435ed83c-bb7e-465c-b4aa-287d9d1e6957,2024-FIS-0120,Wagner Le Goff S.A. c/ Germain Mallet SARL,f4a091a0-19e7-4880-b4a8-9cec955b0edc,Fiscal,,2024-11-17,,Ouvert,430289.22
+a0628de8-7218-44d1-818e-0d574f9fed8f,2025-PRO-0121,Renard c/ Marchal,6fa21168-170b-4a07-922e-49a39fbc8e5c,Propriété intellectuelle,,2025-01-10,,Transaction en cours,151226.72
+a76e2480-dc6b-4d7a-89cf-cbc9848c15d2,2022-DRO-0122,Muller c/ Allain Morvan S.A.,0eecdb50-d020-48d6-8787-07a4ab00d36e,Droit social,,2022-01-14,,Ouvert,232864.7
+edb86c4c-8504-4e7f-a82b-3185341de3b9,2024-CON-0123,Wagner Le Goff S.A. c/ Neveu,f4a091a0-19e7-4880-b4a8-9cec955b0edc,Contrats,,2024-06-15,2024-07-05,Clos,66801.58
+8492a77e-d4fd-44f2-9a64-6257ba4e3007,2022-PRO-0124,Lebreton c/ Klein,0edac7a1-815d-4b39-a043-2166dcbe7c97,Propriété intellectuelle,,2022-06-12,,Ouvert,332253.59
+af518df3-f84d-438d-9966-aecc0d0ddc4d,2025-PRO-0125,Lemonnier c/ Lejeune et Fils,2e3dbfa5-7add-4337-935c-d0a0e242f2a6,Propriété intellectuelle,,2025-02-02,,Transaction en cours,36560.0
+a85698f6-489d-444f-b170-5483f65a5958,2023-CON-0126,Toussaint c/ Couturier Bailly S.A.,cf878ca4-6420-4fb4-b26f-0c75aa2a1cdc,Contrats,,2023-09-05,,Transaction en cours,316450.28
+f28715a5-6113-4310-944a-97fc62d6dcf8,2022-CON-0127,Fleury S.A.R.L. c/ Auger Briand S.A.R.L.,cac4fcdb-cb91-4cd6-b2ea-071ad065b065,Contentieux,TJ Marseille,2022-08-18,,En appel,279117.62
+3812653d-ee0c-4bf0-9e9c-5754d44c991b,2021-PRO-0128,Petit S.A.R.L. c/ Joseph,e59054ce-cc92-4339-b67a-f390729b9a03,Propriété intellectuelle,,2021-11-13,,Transaction en cours,69498.78
+ed2e758f-1b23-45bf-8701-decd93182ddb,2023-DRO-0129,Grenier SARL c/ Joubert,60b5e4e8-0448-4f10-a25d-95691df9d10d,Droit social,,2023-08-05,,En appel,357793.58
+84a94905-8226-4fec-965c-f570e03e334e,2023-DRO-0130,Raymond c/ Devaux,ebb55f6e-3b53-4105-9c74-ba6a030b963e,Droit social,,2023-09-16,,Ouvert,280603.19
+3baa46cb-83ff-46bb-9904-040db6558921,2021-M&A-0131,Guillon c/ Boutin,d1419330-5137-4a0c-87ff-52b230421701,M&A,,2021-09-17,,Ouvert,236109.47
+639ebbc8-fc7d-40d7-bf1a-650ea8027bb7,2025-FIS-0132,Charrier c/ Nicolas S.A.,754265ae-2c64-4a62-b166-609bed8d62d7,Fiscal,,2025-05-13,,En appel,254204.0
+4c479ea5-5830-43b3-a98a-022c2eba90c1,2024-CON-0133,Reynaud c/ Jourdan Raymond SA,4360cb2d-9412-4cd5-a476-ad9e7a5f8305,Contrats,,2024-05-08,2025-02-07,Clos,213590.27
+db3ea9ad-a69a-443f-983c-6bf46028ad66,2023-PRO-0134,Jean c/ Chrétien,accc7eca-b18a-4251-a62a-6dd03781a918,Propriété intellectuelle,,2023-12-13,,En appel,233825.37
+5fbb65d1-2cae-4bad-89a3-1e0cf2a645e3,2022-PRO-0135,Dias c/ Gautier,4b2df728-f816-488c-8a39-264e1e390fb7,Propriété intellectuelle,,2022-12-19,,En appel,461715.39
+6e6176c0-f267-4ad2-b06f-cf818f9ceea1,2021-FIS-0136,Faivre c/ Poirier S.A.,699fbc83-5859-4776-8090-0a289e65c155,Fiscal,,2021-08-07,,En appel,433373.2
+d78eaf42-d043-4eb4-9ed3-a7792c8d6808,2023-PRO-0137,Descamps c/ Cohen Besson S.A.R.L.,b5431219-068f-4a9d-88ec-34385699f525,Propriété intellectuelle,,2023-09-23,2025-04-25,Clos,467781.71
+0d2db5a4-367a-4f1c-a4e0-acde143d5957,2023-CON-0138,Faivre c/ Barre Laurent S.A.R.L.,699fbc83-5859-4776-8090-0a289e65c155,Contrats,,2023-07-11,,Ouvert,148591.1
+4290fff6-a80e-431c-a88b-db8efa0ce72f,2021-DRO-0139,Raymond c/ Legros,ebb55f6e-3b53-4105-9c74-ba6a030b963e,Droit social,,2021-12-31,,Transaction en cours,433977.69
+8cf0b6c8-f1da-4f40-a76c-dc08ce92da3b,2025-DRO-0140,Olivier De Oliveira et Fils c/ Ferreira et Fils,eaef953d-95dd-493c-9dfe-e2d4de3e17e6,Droit social,,2025-06-21,,Transaction en cours,179110.73
+b8423ed1-64a8-4af3-942b-18e0c7ce3226,2022-DRO-0141,Martel c/ Langlois,0fa71635-95b2-4a1e-a08b-47979a5445e0,Droit social,,2022-02-27,,Transaction en cours,233118.86
+073dc60b-9896-4b2d-8c6d-a84f3edaa756,2023-M&A-0142,Wagner Le Goff S.A. c/ Leclerc,f4a091a0-19e7-4880-b4a8-9cec955b0edc,M&A,,2023-01-05,,En appel,290180.84
+e6c15b83-4920-4ed7-b094-4fe8eeb78588,2023-PRO-0143,Benoit c/ Lévêque,958fa7e4-bfad-4af7-8f13-f0b11cd95b44,Propriété intellectuelle,,2023-10-09,,Ouvert,165906.4
+12b5475b-3c3c-4686-bd19-efa37166d9be,2023-FIS-0144,Jean c/ Navarro et Fils,accc7eca-b18a-4251-a62a-6dd03781a918,Fiscal,,2023-07-31,,Transaction en cours,199178.59
+3a8180ef-9c77-41f5-9103-73e8e9a2bafe,2024-FIS-0145,Lebreton c/ Julien,6f874b9f-f637-4bcf-8854-ca566d074cae,Fiscal,,2024-07-08,,En appel,252711.04
+87db4dd7-2b2a-4fa6-9861-45c572cbf7fa,2021-M&A-0146,Lemaître Monnier S.A. c/ Lacombe SA,d32b5392-8812-4c63-b32f-e566402deb53,M&A,,2021-11-03,2023-02-12,Clos,436153.15
+1b08e87f-ec7c-48b6-88e9-bfa9c62e2a81,2021-CON-0147,Olivier De Oliveira et Fils c/ Jourdan,eaef953d-95dd-493c-9dfe-e2d4de3e17e6,Contentieux,TJ Paris,2021-08-26,,Transaction en cours,363997.48
+8a31273e-23eb-4904-b9df-c1fea644ed08,2022-FIS-0148,Chauveau c/ Traore Berger S.A.S.,6919da49-371a-4dab-88b0-f4b1a9bdf2aa,Fiscal,,2022-01-07,,En appel,46665.84
+fe95d0e9-85f2-43a8-a6c2-871cc63f19f7,2022-CON-0149,Lemoine SA c/ Rémy Vaillant S.A.R.L.,d32b3240-ef39-49c2-bc97-729e89eeb4ec,Contrats,,2022-04-19,,Transaction en cours,328419.96
