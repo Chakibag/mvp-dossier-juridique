@@ -53,4 +53,30 @@ def main():
         st.write(f"**Date d'ouverture :** {dossier.get('date_ouverture', 'N/A')}")
         st.write(f"**État :** {dossier.get('etat', 'N/A')}")
 
-    # 6️⃣ Co
+    # 6️⃣ Contacts impliqués
+    with st.expander("👥 Contacts impliqués", expanded=False):
+        df_contacts = contacts.loc[contacts["dossier_id"] == dossier_id, 
+                                   ["nom", "prenom", "fonction", "email"]]
+        st.dataframe(df_contacts)
+
+    # 7️⃣ Documents associés
+    with st.expander("📄 Documents", expanded=False):
+        df_docs = documents.loc[documents["dossier_id"] == dossier_id, 
+                                ["nom_document", "date_document"]]
+        st.dataframe(df_docs)
+
+    # 8️⃣ Factures liées
+    with st.expander("💶 Factures", expanded=False):
+        df_factures = factures.loc[factures["dossier_id"] == dossier_id, 
+                                   ["facture_id", "montant_ht", "date_emission"]]
+        st.dataframe(df_factures)
+
+    # 9️⃣ Temps passé / Suivi temps
+    with st.expander("⏱️ Suivi du temps", expanded=False):
+        df_temps = temps.loc[temps["dossier_id"] == dossier_id, 
+                             ["temps_id", "date_heure", "description"]]
+        st.dataframe(df_temps)
+
+
+if __name__ == "__main__":
+    main()
