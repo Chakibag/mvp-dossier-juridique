@@ -36,7 +36,7 @@ def main():
 
     # Récupérer la ligne du dossier
     # -- on convertit en str car selectbox renvoie du texte
-    dossier = dossiers.loc[dossiers["dossier_id"].astype(str) == dossier_sel]
+    docs = documents.loc[documents["id_dossier"] == dossier_sel]
     if dossier.empty:
         st.error(f"Le dossier `{dossier_sel}` n'existe pas.")
         return
@@ -50,7 +50,7 @@ def main():
     # 2) Le client lié
     st.subheader("👤 Client associé")
     id_client = dossier["id_client"]
-    client = clients.loc[clients["id_client"] == id_client]
+    client = clients.loc[clients["id_client"] == dossier["client_id"]].squeeze()
     if client.empty:
         st.warning("Aucun client trouvé pour ce dossier.")
     else:
