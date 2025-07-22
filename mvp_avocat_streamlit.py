@@ -10,7 +10,7 @@ factures = pd.read_csv("factures.csv")
 temps = pd.read_csv("temps.csv")
 
 st.set_page_config(page_title="Vue 360° d'un dossier juridique", layout="wide")
-st.title("📂 Vue 360° d'un dossier juridique")
+st.title("\ud83d\udcc2 Vue 360° d'un dossier juridique")
 
 # Sélection d'un dossier
 dossier_selectionne = st.selectbox("Sélectionnez un dossier :", 
@@ -22,29 +22,41 @@ dossier_info = dossiers[dossiers["dossier_id"] == dossier_id].iloc[0]
 
 # Affichage des infos client
 client_info = clients[clients["client_id"] == dossier_info["id_client"]].iloc[0]
-st.subheader("👥 Informations client")
-st.write(f"**Raison sociale :** {client_info['raison_sociale']}")
-st.write(f"**Secteur :** {client_info['secteur']} | **Forme juridique :** {client_info['forme_juridique']}")
+st.subheader("\ud83d\udc65 Informations client")
+st.write(f"**Raison sociale :** {client_info.get('raison_sociale', 'Non renseigné')}")
+st.write(f"**Secteur :** {client_info.get('secteur', 'Non renseigné')} | **Forme juridique :** {client_info.get('forme_juridique', 'Non renseigné')}")
 
 # Contacts liés au dossier
-st.subheader("👤 Contacts impliqués")
+st.subheader("\ud83d\udc64 Contacts impliqués")
 contacts_dossier = contacts[contacts["id_dossier"] == dossier_id]
-st.dataframe(contacts_dossier[["civilite", "nom", "prenom", "fonction", "email"]])
+if not contacts_dossier.empty:
+    st.dataframe(contacts_dossier[["civilite", "nom", "prenom", "fonction", "email"]])
+else:
+    st.info("Aucun contact trouvé pour ce dossier.")
 
 # Documents liés
-st.subheader("📄 Documents associés")
+st.subheader("\ud83d\udcc4 Documents associés")
 documents_dossier = documents[documents["id_dossier"] == dossier_id]
-st.dataframe(documents_dossier[["type_document", "titre", "date", "auteur"]])
+if not documents_dossier.empty:
+    st.dataframe(documents_dossier[["type_document", "titre", "date", "auteur"]])
+else:
+    st.info("Aucun document associé à ce dossier.")
 
 # Temps passé
-st.subheader("⏱️ Temps passé sur le dossier")
+st.subheader("\u23f1\ufe0f Temps passé sur le dossier")
 temps_dossier = temps[temps["id_dossier"] == dossier_id]
-temps_resume = temps_dossier.groupby("nom_intervenant")["heures"].sum().reset_index()
-st.dataframe(temps_resume.rename(columns={"nom_intervenant": "Intervenant", "heures": "Total heures"}))
+if not temps_dossier.empty:
+    temps_resume = temps_dossier.groupby("nom_intervenant")["heures"].sum().reset_index()
+    st.dataframe(temps_resume.rename(columns={"nom_intervenant": "Intervenant", "heures": "Total heures"}))
+else:
+    st.info("Aucune donnée de temps trouvée.")
 
 # Factures
-st.subheader("💳 Facturation")
+st.subheader("\ud83d\udcb3 Facturation")
 factures_dossier = factures[factures["id_dossier"] == dossier_id]
-st.dataframe(factures_dossier[["date_emission", "montant", "etat"]])
+if not factures_dossier.empty:
+    st.dataframe(factures_dossier[["date_emission", "montant", "etat"]])
+else:
+    st.info("Aucune facture disponible pour ce dossier.")
 
 st.success("Vue du dossier générée avec succès.")
