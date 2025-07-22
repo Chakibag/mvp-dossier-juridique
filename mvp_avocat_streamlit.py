@@ -9,8 +9,8 @@ dossiers = pd.read_csv("dossiers.csv")
 factures = pd.read_csv("factures.csv")
 temps = pd.read_csv("temps.csv")
 
-st.set_page_config(page_title="Vue 360° d'un dossier juridique", layout="wide")
-st.title("\ud83d\udcc2 Vue 360° d'un dossier juridique")
+st.set_page_config(page_title="Vue 360 d'un dossier juridique", layout="wide")
+st.title("Vue 360 d'un dossier juridique")
 
 # Sélection d'un dossier
 dossier_selectionne = st.selectbox("Sélectionnez un dossier :", 
@@ -22,12 +22,12 @@ dossier_info = dossiers[dossiers["dossier_id"] == dossier_id].iloc[0]
 
 # Affichage des infos client
 client_info = clients[clients["client_id"] == dossier_info["id_client"]].iloc[0]
-st.subheader("\ud83d\udc65 Informations client")
+st.subheader("Informations client")
 st.write(f"**Raison sociale :** {client_info.get('raison_sociale', 'Non renseigné')}")
 st.write(f"**Secteur :** {client_info.get('secteur', 'Non renseigné')} | **Forme juridique :** {client_info.get('forme_juridique', 'Non renseigné')}")
 
 # Contacts liés au dossier
-st.subheader("\ud83d\udc64 Contacts impliqués")
+st.subheader("Contacts impliqués")
 contacts_dossier = contacts[contacts["id_dossier"] == dossier_id]
 if not contacts_dossier.empty:
     st.dataframe(contacts_dossier[["civilite", "nom", "prenom", "fonction", "email"]])
@@ -35,7 +35,7 @@ else:
     st.info("Aucun contact trouvé pour ce dossier.")
 
 # Documents liés
-st.subheader("\ud83d\udcc4 Documents associés")
+st.subheader("Documents associés")
 documents_dossier = documents[documents["id_dossier"] == dossier_id]
 if not documents_dossier.empty:
     st.dataframe(documents_dossier[["type_document", "titre", "date", "auteur"]])
@@ -43,7 +43,7 @@ else:
     st.info("Aucun document associé à ce dossier.")
 
 # Temps passé
-st.subheader("\u23f1\ufe0f Temps passé sur le dossier")
+st.subheader("Temps passé sur le dossier")
 temps_dossier = temps[temps["id_dossier"] == dossier_id]
 if not temps_dossier.empty:
     temps_resume = temps_dossier.groupby("nom_intervenant")["heures"].sum().reset_index()
@@ -52,7 +52,7 @@ else:
     st.info("Aucune donnée de temps trouvée.")
 
 # Factures
-st.subheader("\ud83d\udcb3 Facturation")
+st.subheader("Facturation")
 factures_dossier = factures[factures["id_dossier"] == dossier_id]
 if not factures_dossier.empty:
     st.dataframe(factures_dossier[["date_emission", "montant", "etat"]])
