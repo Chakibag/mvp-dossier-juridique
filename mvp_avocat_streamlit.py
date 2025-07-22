@@ -74,7 +74,7 @@ def main():
 
     # 5) Les factures associées
     st.subheader("💶 Factures liées")
-    fac = factures.loc[factures["dossier_id"] == int(dossier_sel)]
+    fac = factures.loc[factures["id_dossier"] == int(dossier_sel)]
     if fac.empty:
         st.info("Pas de factures pour ce dossier.")
     else:
@@ -82,7 +82,7 @@ def main():
 
     # 6) Les temps passés (suivi temps)
     st.subheader("⏱️ Temps passés sur le dossier")
-    tps = temps.loc[temps["dossier_id"] == int(dossier_sel)]
+    tps = temps.loc[temps["id_dossier"] == int(dossier_sel)]
     if tps.empty:
         st.info("Aucun enregistrement de temps pour ce dossier.")
     else:
