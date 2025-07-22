@@ -1,92 +1,76 @@
 import streamlit as st
 import pandas as pd
-import os
+from pathlib import Path
 
+# --- Chargement des fichiers CSV ---
 @st.cache_data
 def load_data():
-    # On suppose que les CSV sont dans le même dossier que ce script
-    base = os.getcwd()
-    clients   = pd.read_csv(os.path.join(base, "clients.csv"))
-    contacts  = pd.read_csv(os.path.join(base, "contacts.csv"))
-    dossiers  = pd.read_csv(os.path.join(base, "dossiers.csv"))
-    documents = pd.read_csv(os.path.join(base, "documents.csv"))
-    factures  = pd.read_csv(os.path.join(base, "factures.csv"))
-    temps     = pd.read_csv(os.path.join(base, "temps.csv"))
+    base = Path(__file__).parent
+    dossiers  = pd.read_csv(base / "dossiers.csv",  dtype={"id": str})
+    clients   = pd.read_csv(base / "clients.csv",   dtype={"client_id": str})
+    contacts  = pd.read_csv(base / "contacts.csv",  dtype={"contact_id": str, "client_id": str})
+    documents = pd.read_csv(base / "documents.csv", dtype={"document_id": str, "id_dossier": str})
+    factures  = pd.read_csv(base / "factures.csv",  dtype={"facture_id": str, "id_dossier": str})
+    temps     = pd.read_csv(base / "temps.csv",     dtype={"temps_id": str,   "id_dossier": str})
+    return dossiers, clients, contacts, documents, factures, temps
 
-    # Harmonisation des noms de colonnes pour les clés
-    # Dans clients.csv la clé s'appelle "client_id"
-    clients = clients.rename(columns={"client_id": "id_client"})
-    # Dans dossiers.csv la clé client est "id_client" et la pk dossier est "dossier_id"
-    # dans contacts.csv la fk client est "id_client"
-    # dans documents/factures/temps la fk dossier est "id_dossier"
-    # on les laisse tels quels
-
-    return clients, contacts, dossiers, documents, factures, temps
-
+dossiers, clients, contacts, documents, factures, temps = load_data()
 
 def main():
-    st.set_page_config(page_title="360° d'un dossier", layout="wide")
+    st.set_page_config(page_title="Vue 360° d'un dossier juridique", layout="wide")
     st.title("🔍 Vue 360° d'un dossier juridique")
 
-    clients, contacts, dossiers, documents, factures, temps = load_data()
+    # --- Sélection du dossier ---
+    choix_dossier = st.sidebar.selectbox(
+        "Choisissez un dossier",
+        options = dossiers["id"].tolist(),
+        format_func = lambda x: dossiers.loc[dossiers["id"] == x, "reference_interne"].iat[0]
+    )
 
-    # Choix du dossier dans la sidebar
-    dossier_ids = dossiers["dossier_id"].astype(str).tolist()
-    dossier_sel = st.sidebar.selectbox("Choisissez un dossier", dossier_ids)
-
-    # Récupérer la ligne du dossier
-    # -- on convertit en str car selectbox renvoie du texte
-    docs = documents.loc[documents["id_dossier"] == dossier_sel]
+    # On récupère le dossier complet
+    dossier = dossiers.loc[dossiers["id"] == choix_dossier]
     if dossier.empty:
-        st.error(f"Le dossier `{dossier_sel}` n'existe pas.")
+        st.error("Dossier introuvable.")
         return
-    # Comme c'est un DataFrame à 1 ligne, on squeeze en Series
-    dossier = dossier.squeeze()
 
-    # 1) Afficher les infos du dossier
-    st.subheader("📁 Informations générales du dossier")
-    st.write(dossier.to_frame().T)
+    # --- Informations générales du dossier ---
+    st.subheader("📂 Informations générales du dossier")
+    st.dataframe(dossier, use_container_width=True)
 
-    # 2) Le client lié
+    # --- Client associé ---
+    id_client = dossier["id_client"].iat[0]
+    client = clients.loc[clients["client_id"] == id_client]
     st.subheader("👤 Client associé")
-    id_client = dossier["id_client"]
-    client = clients.loc[clients["id_client"] == dossier["client_id"]].squeeze()
-    if client.empty:
-        st.warning("Aucun client trouvé pour ce dossier.")
-    else:
-        st.write(client.squeeze().to_frame().T)
+    st.dataframe(client, use_container_width=True)
 
-    # 3) Les contacts (avocat(s), etc.) du client
+    # --- Contacts du client ---
     st.subheader("📇 Contacts du client")
-    contacts_client = contacts.loc[contacts["id_client"] == id_client]
-    if contacts_client.empty:
-        st.info("Pas de contacts enregistrés pour ce client.")
-    else:
-        st.dataframe(contacts_client)
+    ctcs = contacts.loc[contacts["client_id"] == id_client]
+    st.dataframe(ctcs, use_container_width=True)
 
-    # 4) Les documents attachés au dossier
+    # --- Documents du dossier ---
     st.subheader("📄 Documents du dossier")
-    docs = documents.loc[documents["dossier_id"] == int(dossier_sel)]
+    docs = documents.loc[documents["id_dossier"] == choix_dossier]
     if docs.empty:
-        st.info("Pas de documents pour ce dossier.")
+        st.info("Aucun document trouvé pour ce dossier.")
     else:
-        st.dataframe(docs)
+        st.dataframe(docs, use_container_width=True)
 
-    # 5) Les factures associées
-    st.subheader("💶 Factures liées")
-    fac = factures.loc[factures["id_dossier"] == int(dossier_sel)]
-    if fac.empty:
-        st.info("Pas de factures pour ce dossier.")
+    # --- Factures du dossier ---
+    st.subheader("💶 Factures du dossier")
+    facs = factures.loc[factures["id_dossier"] == choix_dossier]
+    if facs.empty:
+        st.info("Aucune facture trouvée pour ce dossier.")
     else:
-        st.dataframe(fac)
+        st.dataframe(facs, use_container_width=True)
 
-    # 6) Les temps passés (suivi temps)
+    # --- Temps passés sur le dossier ---
     st.subheader("⏱️ Temps passés sur le dossier")
-    tps = temps.loc[temps["id_dossier"] == int(dossier_sel)]
+    tps = temps.loc[temps["id_dossier"] == choix_dossier]
     if tps.empty:
-        st.info("Aucun enregistrement de temps pour ce dossier.")
+        st.info("Aucun relevé de temps trouvé pour ce dossier.")
     else:
-        st.dataframe(tps)
+        st.dataframe(tps, use_container_width=True)
 
 if __name__ == "__main__":
     main()
